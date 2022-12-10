@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+.title-main__subtitle{
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+}
+
+.title-main__subtitle:not(:last-child){
+	margin-bottom: 8px;
+}
+
+.title-main__title{
+	font-size: 46px;
+	line-height: 1.3;
+	font-weight: 900;
+	color: #1E212C;
+}
+
+.title-main__title:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.btn{
+	line-height: 1.25;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.5px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+	padding: 16px 117px;
+	position: relative;
+}
+
+.btn span{
+	position: relative;
+	z-index: 1;
+	font-size: 16px;
+}
+
+.btn::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 4px;
+	background: linear-gradient(55.95deg, #d53d38 0%, #db580c 100%);
+	transition: all 1s ease;
+	opacity: 0;
+}
+
+.btn:hover::before{
+	opacity: 1;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/common.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<section class="questions">
+				<div class="questions__container">
+					<div class="questions__image">
+						<img src="img/illustration.svg" alt="Illustration">
+					</div>
+					<div class="questions__content content-questions">
+						<div class="content-questions__title title-main">
+							<h3 class="title-main__subtitle">Any questions?</h3>
+							<h2 class="title-main__title">Drop us a line</h2>
+						</div>
+						<form class="content-questions__form" method="post"
+							action="https://jsonplaceholder.typicode.com/posts">
+							<div class="content-questions__contacts">
+								<div class="content-questions__wrapper">
+									<label class="content-questions__label" for="first-name">First Name*</label>
+									<input class="content-questions__input" id="first-name" autocomplete="off" required
+										placeholder="Your first name" name="first-name" type="text">
+								</div>
+								<div class="content-questions__wrapper">
+									<label class="content-questions__label" for="last-name">Last Name*</label>
+									<input class="content-questions__input" id="last-name" autocomplete="off" required
+										placeholder="Your last name" name="last-name" type="text">
+								</div>
+								<div class="content-questions__wrapper">
+									<label class="content-questions__label" for="e-mail">Email*</label>
+									<input class="content-questions__input" id="e-mail" autocomplete="off" required
+										placeholder="Your working email" name="e-mail" type="email">
+								</div>
+								<div class="content-questions__wrapper">
+									<label class="content-questions__label" for="phone">Phone</label>
+									<input class="content-questions__input" autocomplete="off" id="phone"
+										placeholder="Your phone number" name="phone" type="tel">
+								</div>
+							</div>
+							<div class="content-questions__message">
+								<div class="content-questions__wrapper">
+									<label class="content-questions__label" for="message">Message*</label>
+									<textarea class="content-questions__textarea" required id="message"
+										placeholder="Your message" name="message" id=""></textarea>
+								</div>
+							</div>
+							<div class="content-questions__english">
+								<h2 class="content-questions__title-english">What is your level of english?</h2>
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--radio" id="english-level-01"
+										value="a1" name="english-level" type="radio">
+									<label class="content-questions__label content-questions__label--point"
+										for="english-level-01">A1</label>
+								</div>
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--radio" id="english-level-02"
+										value="a2" name="english-level" type="radio">
+									<label class="content-questions__label content-questions__label--point"
+										for="english-level-02">A2</label>
+								</div>
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--radio" id="english-level-03"
+										value="b1" name="english-level" type="radio">
+									<label class="content-questions__label content-questions__label--point"
+										for="english-level-03">B1</label>
+								</div>
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--radio" id="english-level-04"
+										value="b2" name="english-level" type="radio">
+									<label class="content-questions__label content-questions__label--point"
+										for="english-level-04">B2</label>
+								</div>
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--radio" id="english-level-05"
+										value="c1" name="english-level" type="radio">
+									<label class="content-questions__label content-questions__label--point"
+										for="english-level-05">C1</label>
+								</div>
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--radio" id="english-level-06"
+										value="c2" name="english-level" type="radio">
+									<label class="content-questions__label content-questions__label--point"
+										for="english-level-06">C2</label>
+								</div>
+							</div>
+							<div class="content-questions__send">
+								<div class="content-questions__wrapper">
+									<input class="content-questions__input content-questions__input--orange" value="yes" required
+										id="accept" name="agree" type="checkbox">
+									<label class="content-questions__label content-questions__label--agree" for="accept">I agree
+										to receive
+										communications from Createx
+										Online School
+									</label>
+								</div>
+								<button class="content-questions__btn btn" type="submit"><span>Send message</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+
+			</section>
+		</main>
+		<footer class="footer"></footer>
+	</div>
+</body>
+
+</html>
