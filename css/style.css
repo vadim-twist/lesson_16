@@ -170,6 +170,7 @@ body{
 
 
 .content-questions__btn{
+	flex: 0 1 340px;
 	align-self: flex-start;
 }
 
