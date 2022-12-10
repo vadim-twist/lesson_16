@@ -159,6 +159,7 @@ body{
 .content-questions__send{
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	row-gap: 15px;
 	font-size: 0;
 }
